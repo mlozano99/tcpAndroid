@@ -57,7 +57,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="radioButtons" upperBound="-1"
         eType="#//RadioButton" eOpposite="#//RadioButton/radioGroup"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="RadioButton">
+  <eClassifiers xsi:type="ecore:EClass" name="RadioButton" eSuperTypes="#//View">
     <eStructuralFeatures xsi:type="ecore:EReference" name="radioGroup" lowerBound="1"
         eType="#//RadioGroup" eOpposite="#//RadioGroup/radioButtons"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="texto" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
