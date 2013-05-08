@@ -13,8 +13,12 @@
         eType="#//View" eOpposite="#//View/groupView"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="paneles" upperBound="-1"
         eType="#//GroupView"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="LinearLayout" eSuperTypes="#//GroupView"/>
+  <eClassifiers xsi:type="ecore:EClass" name="LinearLayout" eSuperTypes="#//GroupView">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="orientacion" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="vertical"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="View" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         defaultValueLiteral=""/>
@@ -32,7 +36,9 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="texto" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="GridLayout" eSuperTypes="#//GroupView"/>
-  <eClassifiers xsi:type="ecore:EClass" name="ImageView" eSuperTypes="#//View"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ImageView" eSuperTypes="#//View">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fuente" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RelativeLayout" eSuperTypes="#//GroupView"/>
   <eClassifiers xsi:type="ecore:EClass" name="ListView" eSuperTypes="#//View">
     <eStructuralFeatures xsi:type="ecore:EReference" name="items" upperBound="-1"
