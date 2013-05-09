@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmftool:ToolRegistry
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmftool="http://www.eclipse.org/gmf/2005/ToolDefinition">
+  <palette
+      title="androidPalette">
+    <tools
+        xsi:type="gmftool:ToolGroup"
+        title="android">
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="LinearLayout"
+          description="Create new LinearLayout">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="GridLayout"
+          description="Create new GridLayout">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="RelativeLayout"
+          description="Create new RelativeLayout">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:PaletteSeparator"
+          title="enlaces"/>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="groupViewToView"
+          description="De groupViews a a views">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="groupViewToGroupView"
+          description="De groupViews a groupViews, paneles">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="radioGroupAradioButtons"
+          description="De grupos de radio a los radio buttons">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="listViewAlistItems"
+          description="De listView a lista de items">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:PaletteSeparator"
+          title="componentes"/>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="EditText"
+          description="Create new EditText">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="CheckBox"
+          description="Create new CheckBox">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="ProgressBar"
+          description="Create new ProgressBar">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="Button"
+          description="Create new Button">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="TextView"
+          description="Create new TextView">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="ImageView"
+          description="Create new ImageView">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="ListView"
+          description="Create new ListView">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="ListItem"
+          description="Create new ListItem">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="RadioGroup"
+          description="Create new RadioGroup">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="RadioButton"
+          description="Create new RadioButton">
+        <smallIcon
+            xsi:type="gmftool:DefaultImage"/>
+        <largeIcon
+            xsi:type="gmftool:DefaultImage"/>
+      </tools>
+    </tools>
+  </palette>
+</gmftool:ToolRegistry>
